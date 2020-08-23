@@ -38,7 +38,10 @@ The stream or file "/var/www/html/storage/logs/laravel.log" could not be opened 
 ```
 1. Connect to Nginx container by opening Docker Desktop and clicking CLI button.
 
-2. Navigate to ```/var/www/html/```.
+2. Navigate to laravel app, in this case it's ```/var/www/html/``` by running this command:
+```
+cd /var/www/html/
+```
 
 3. Run this command in the same folder.
 ```
