@@ -40,12 +40,12 @@ The stream or file "/var/www/html/storage/logs/laravel.log" could not be opened 
 
 2. Navigate to laravel app, in this case it's ```/var/www/html/``` by running this command:
 ```
-cd /var/www/html/
+$ cd /var/www/html/
 ```
 
 3. Run this command in the same folder.
 ```
-chown -R www-data:www-data *
+$ chown -R www-data:www-data *
 ```
 
 4. Thats it, Happy hacking! 🎉
