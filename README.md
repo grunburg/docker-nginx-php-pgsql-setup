@@ -29,3 +29,20 @@ $ docker-compose up -d --build
 ![Screenshot](https://i.ibb.co/3cW0d6r/image.png)
 
 >In this example I'm running Laravel API on this Docker web-server.
+
+### Errors you might have
+Getting errors isn't nice 🙄, but in case you ran into this error, it's easily fixable.
+```
+UnexpectedValueException
+The stream or file "/var/www/html/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+```
+1. Connect to Nginx container by opening Docker Desktop and clicking CLI button.
+
+2. Navigate to ```/var/www/html/```.
+
+3. Run this command in the same folder.
+```
+chown -R www-data:www-data *
+```
+
+4. Thats it, Happy hacking! 🎉
