@@ -1,7 +1,7 @@
 # docker-nginx-php-pgsql-setup
 Docker, for **Larvel** made, web-server based on **[NGINX](https://hub.docker.com/_/nginx)**, **[PHP](https://hub.docker.com/_/php)** and **[Postgresql](https://hub.docker.com/_/postgres)**.
 
-> **Attention**: If you don't want to use any database services, check out my other [Docker setup](https://hub.docker.com/_/php) or just remove Postgresql from [docker-compose](https://github.com/grunburg/docker-nginx-php-pgsql-setup/blob/master/docker-compose.yml) file.
+> **Attention**: If you don't want to use any database services, check out my other [Docker setup](https://github.com/grunburg/docker-nginx-php-setup) or just remove Postgresql from [docker-compose](https://github.com/grunburg/docker-nginx-php-pgsql-setup/blob/master/docker-compose.yml) file.
 
 ### Installation
 
